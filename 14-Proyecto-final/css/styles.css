@@ -1,0 +1,205 @@
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #004BEB;
+  color: white;
+  border: solid 1px #004BEB;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #004BEB;
+}
+.btn-main-s {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-inline: 0.5rem;
+  list-style: none;
+  display: inline;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.text-link a {
+  text-decoration: none;
+}
+.text-link a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  color: #004BEB;
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3843137255);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #004BEB;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #004BEB;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  padding: 0;
+  color: #004BEB;
+  font-size: 10rem;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-home .home-img img {
+  max-width: 35rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #004BEB;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 4rem;
+  font-weight: 550;
+}
+.sec-home .home-cta .home-description {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sec-features {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 2.5rem;
+}
+.sec-features .intro p {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sec-features .features .features-list {
+  padding: 2rem 0;
+  max-width: 40%;
+  flex-direction: column-reverse;
+}
+.sec-features .features .features-list .feature-item {
+  display: flex;
+  flex-direction: row;
+}
+.sec-features .features .features-list .feature-item .feature-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.sec-features .features .features-list .feature-item .feature-description {
+  margin-left: 1rem;
+}
+.sec-features .features .features-list .feature-item .feature-description .description-title {
+  font-size: 1.25rem;
+}
+.sec-features .features .features-list .feature-item .feature-description .description-text {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-features .features .image img {
+  max-width: 45rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
